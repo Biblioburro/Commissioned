@@ -1,10 +1,10 @@
-//once working copy this js into the browser console
 //steps
-//1. select 100 elements per page
+//1. select 100 elements per page if more than 50 items sold at bottom
 //2. press f12 with your commision pulled 
 //3. click on the console tab
 //4. click on the prompt so you get a flashing |
 //5. paste the code below this line in
+
 //variables to store info about commission 
 var planNums = 0;
 var lowDollar = 0;
