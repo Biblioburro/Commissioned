@@ -17,15 +17,9 @@ function itemComm(price,name){
 if(name.includes("Protection Plan") || name.includes("Replacement Plan")){
 			planNums++;
 			return(price*.1);
-}else if (price<9.99){
-			lowDollar++;
-			return(price*.065);
-}else if (price<99.99){
-			medDollar++;
-			return(price*.03);
 }else{
 			highDollar++;
-			return(price*.01);
+			return(price*.015);
 }
 }
 
