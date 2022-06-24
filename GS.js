@@ -19,7 +19,7 @@ if(name.includes("Protection Plan") || name.includes("Replacement Plan")){
 			return(price*.1);
 }else if (price<9.99){
 			lowDollar++;
-			return(price*.0125);
+			return(price*.125);
 }else if (price<99.99){
 			medDollar++;
 			return(price*.06);
